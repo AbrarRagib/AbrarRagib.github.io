@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #1f2937;
+    color: #f0f2f5;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #6ab7ff;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about img {
+    width: 100%; /* Full view */
+    max-width: 500px; /* Adjust max-width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 50px;
+}
+
+#about .text {
+    max-width: 600px;
+}
+
+#about .text p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px; /* Add padding for container */
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Responsive */
+}
+
+.skill-card {
+    text-align: center;
+    padding: 20px;
+    background: #374151; /* Dark background for skill cards */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    transition: transform 0.3s;
+    margin: 10px; /* Add margin for spacing */
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+}
+
+.skill-card i {
+    font-size: 3rem;
+    color: #4a90e2;
+}
+
+/* Project Section */
+#projects {
+    padding: 20px; /* Add padding for container */
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Responsive */
+}
+
+.project-card {
+    background: #374151; /* Dark background for project cards */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    max-width: 45%;
+    margin: 10px; /* Add margin for spacing */
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0; 
+    text-align: center; /* Center the text */
+}
+
+#contact p {
+    margin-bottom: 20px;
+    font-size: 1.2rem; /* Slightly increase font size */
+    animation: fadeIn 1s; /* Fade-in animation */
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 15px;
+    background: #1f2937;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #374151;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Add this at the end of your existing CSS */
+/* #blackHoleCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;a
+    height: 100%;
+    z-index: -1; /* Send it behind other content */
+    opacity: 0.8; /* Make it semi-transparent */
+} */
+
+/* Existing CSS... */
+
+/* Add this at the end of your existing CSS */
+/* #blackHoleCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send it behind other content */
+    opacity: 0.7; /* Adjust transparency if needed */
+} */
+
+/* Existing CSS... */
+
+/* Add these styles at the end of your existing CSS */
+
+/* Styles for the black hole image */
+/* #blackHole {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    z-index: 1; /* Bring it above the background */
+} */
+
+/* Binary code canvas */
+/* #binaryCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send it behind other content */
+} */
+
+/* Existing CSS... */
+
+
+
+   
