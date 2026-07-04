@@ -22,9 +22,6 @@ AbrarRagib.github.io/
 │   ├── AbrarRagib.jpg              ← original full-res headshot (not used by the live site)
 │   └── Abrar_Ragib_SQA_CV.pdf      ← downloadable CV
 │
-├── SEO/                            ← backup copy of the verification file
-│   └── google019718aa3f6fb912.html
-│
 └── archive/                        ← previous iterations, kept for reference
     ├── v1/                         ← original multi-file site (index.html · style.css · script.js)
     └── v2/                         ← earlier single-file version (index.html)
@@ -116,7 +113,7 @@ No frameworks · No build tools · No dependencies
 - **JSON-LD `Person` schema** so search engines can parse role, skills, employer, and social profiles
 - **`sitemap.xml`** at the site root — lists the homepage and profile image; submit it in Search Console
 - **`robots.txt`** at the site root — allows all crawlers and points them to the sitemap
-- **Google Search Console** ownership verified via `google019718aa3f6fb912.html` in the repo root (a backup copy lives in `SEO/`)
+- **Google Search Console** ownership verified via `google019718aa3f6fb912.html` in the repo root
 
 ---
 
