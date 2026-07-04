@@ -1,0 +1,7 @@
+# robots.txt — https://abrarragib.github.io/
+# Allow all crawlers full access to the portfolio.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://abrarragib.github.io/sitemap.xml

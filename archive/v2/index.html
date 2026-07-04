@@ -3,45 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abrar Ragib — Software Quality Assurance Engineer</title>
-<meta name="description" content="Abrar Ragib — Software Quality Assurance Engineer in Dhaka, Bangladesh. Delivering quality at national scale across government OCR, AI, and accessibility platforms. Selenium, Playwright, JMeter, Postman, CI/CD.">
-<meta name="author" content="Abrar Ragib">
-<meta name="keywords" content="SQA Engineer, QA Engineer, Software Quality Assurance, Test Automation, Selenium, Playwright, JMeter, API Testing, Postman, Accessibility Testing, WCAG, Dhaka, Bangladesh">
-<meta name="theme-color" content="#060608">
-<link rel="canonical" href="https://abrarragib.github.io/">
-
-<!-- Open Graph / social sharing -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Abrar Ragib — Software Quality Assurance Engineer">
-<meta property="og:description" content="1+ year delivering quality at national scale: government OCR platforms, AI accessibility tools, and enterprise systems. Selenium · Playwright · JMeter · Postman · CI/CD.">
-<meta property="og:url" content="https://abrarragib.github.io/">
-<meta property="og:image" content="https://abrarragib.github.io/ars.png">
-<meta property="og:site_name" content="Abrar Ragib · SQA Engineer">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Abrar Ragib — Software Quality Assurance Engineer">
-<meta name="twitter:description" content="Delivering quality at national scale. Selenium · Playwright · JMeter · Postman · CI/CD.">
-<meta name="twitter:image" content="https://abrarragib.github.io/ars.png">
-
-<!-- Structured data: Person schema for search engines -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Abrar Ragib",
-  "jobTitle": "Software Quality Assurance Engineer",
-  "url": "https://abrarragib.github.io/",
-  "email": "mailto:arsragib@gmail.com",
-  "telephone": "+880-1746-995446",
-  "address": { "@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "BD" },
-  "sameAs": [
-    "https://linkedin.com/in/abrar-ragib",
-    "https://github.com/AbrarRagib"
-  ],
-  "worksFor": { "@type": "Organization", "name": "Apurba Technologies Ltd." },
-  "alumniOf": { "@type": "CollegeOrUniversity", "name": "American International University-Bangladesh (AIUB)" },
-  "knowsAbout": ["Software Quality Assurance","Test Automation","Selenium","Playwright","Apache JMeter","API Testing","Postman","Accessibility Testing","WCAG","Performance Testing","CI/CD"]
-}
-</script>
+<title>Abrar Ragib — SQA Engineer</title>
+<meta name="description" content="Abrar Ragib — Software Quality Assurance Engineer. 1+ year building quality at scale for government platforms. Selenium, JMeter, Postman, CI/CD.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
@@ -414,21 +377,20 @@ nav.scrolled{
 }
 @keyframes orbitSpin2{to{transform:rotate(-360deg)}}
 
-/* Conic gradient spinning border — refined two-tone brand sweep */
+/* Conic gradient spinning border — the main ring */
 .photo-ring{
   position:absolute;
-  inset:-3px;
+  inset:-4px;
   border-radius:50%;
   background:conic-gradient(
     from 0deg,
-    rgba(108,99,255,0) 0%,
-    var(--a1) 18%,
-    var(--a2) 42%,
-    rgba(0,229,192,0) 58%,
-    rgba(108,99,255,0) 82%,
-    var(--a1) 100%
+    #6c63ff 0%,
+    #00e5c0 30%,
+    #ffd166 55%,
+    #ff5e5e 75%,
+    #6c63ff 100%
   );
-  animation:ringSpin 9s linear infinite;
+  animation:ringSpin 5s linear infinite;
   z-index:1;
 }
 @keyframes ringSpin{to{transform:rotate(360deg)}}
@@ -453,27 +415,25 @@ nav.scrolled{
   width:calc(100% - 14px);
   height:calc(100% - 14px);
   display:block;
-  /* crisp static brand edge + inner depth so face separates from bg */
-  box-shadow:0 0 0 1px rgba(108,99,255,.35),inset 0 -30px 44px rgba(6,6,8,.5);
-  filter:contrast(1.05) brightness(1.02) saturate(1.02);
+  /* subtle inner shadow so face separates from bg */
+  filter:contrast(1.04) brightness(1.03);
 }
 
 /* Corner scan lines — top-left and bottom-right bracket corners */
 .photo-corner{
   position:absolute;
-  width:22px; height:22px;
+  width:20px; height:20px;
   z-index:4;
   pointer-events:none;
-  opacity:.55;
 }
-.photo-corner.tl{top:-5px;left:-5px;
-  border-top:1.5px solid var(--a2);border-left:1.5px solid var(--a2);border-radius:6px 0 0 0}
-.photo-corner.tr{top:-5px;right:-5px;
-  border-top:1.5px solid var(--a2);border-right:1.5px solid var(--a2);border-radius:0 6px 0 0}
-.photo-corner.bl{bottom:-5px;left:-5px;
-  border-bottom:1.5px solid var(--a2);border-left:1.5px solid var(--a2);border-radius:0 0 0 6px}
-.photo-corner.br{bottom:-5px;right:-5px;
-  border-bottom:1.5px solid var(--a2);border-right:1.5px solid var(--a2);border-radius:0 0 6px 0}
+.photo-corner.tl{top:-2px;left:-2px;
+  border-top:2px solid var(--a2);border-left:2px solid var(--a2);border-radius:4px 0 0 0}
+.photo-corner.tr{top:-2px;right:-2px;
+  border-top:2px solid var(--a2);border-right:2px solid var(--a2);border-radius:0 4px 0 0}
+.photo-corner.bl{bottom:-2px;left:-2px;
+  border-bottom:2px solid var(--a2);border-left:2px solid var(--a2);border-radius:0 0 0 4px}
+.photo-corner.br{bottom:-2px;right:-2px;
+  border-bottom:2px solid var(--a2);border-right:2px solid var(--a2);border-radius:0 0 4px 0}
 
 /* Status badge — bottom right */
 .photo-badge{
@@ -672,65 +632,8 @@ nav.scrolled{
 /* ===== PROJECTS ===== */
 #projects .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
   gap:20px;
-}
-@media(min-width:1000px){
-  #projects .grid{grid-template-columns:repeat(3,1fr)}
-}
-
-/* ===== PERSONAL PROJECTS ===== */
-.pp-head{
-  display:flex;align-items:flex-end;justify-content:space-between;gap:20px;
-  margin-top:clamp(48px,6vw,72px);margin-bottom:22px;flex-wrap:wrap;
-}
-.pp-head .section-eyebrow{margin-bottom:0}
-.pp-all{
-  font-family:var(--mono);font-size:12px;letter-spacing:.5px;
-  color:var(--text2);display:inline-flex;align-items:center;gap:8px;
-  border:1px solid var(--border2);border-radius:100px;padding:8px 16px;
-  transition:all .2s;white-space:nowrap;
-}
-.pp-all:hover{border-color:var(--a1);color:var(--text);background:var(--glow-a1)}
-.pp-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
-  gap:16px;
-}
-@media(min-width:1000px){
-  .pp-grid{grid-template-columns:repeat(3,1fr)}
-}
-.pp-card{
-  display:flex;flex-direction:column;gap:14px;
-  background:var(--bg1);
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  padding:22px 24px;
-  transition:transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s ease,border-color .2s ease;
-  position:relative;
-}
-.pp-card::before{
-  content:'';position:absolute;top:0;left:24px;right:24px;height:1px;
-  background:linear-gradient(90deg,var(--a1),var(--a2),transparent);
-  opacity:0;transition:opacity .25s;
-}
-.pp-card:hover{border-color:var(--border3);transform:translateY(-4px);box-shadow:0 18px 44px rgba(0,0,0,.4)}
-.pp-card:hover::before{opacity:.7}
-.pp-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.pp-title{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:-.3px;color:var(--text)}
-.pp-git{
-  width:34px;height:34px;flex-shrink:0;border-radius:9px;
-  display:flex;align-items:center;justify-content:center;
-  border:1px solid var(--border2);color:var(--text2);
-  transition:all .2s;
-}
-.pp-git svg{width:16px;height:16px;display:block}
-.pp-card:hover .pp-git{border-color:var(--a2);color:var(--a2);box-shadow:0 0 0 1px rgba(0,229,192,.2)}
-.pp-tags{display:flex;flex-wrap:wrap;gap:6px}
-.pp-tag{
-  font-family:var(--mono);font-size:10px;letter-spacing:.5px;
-  color:var(--text3);background:var(--surface);
-  border:1px solid var(--border);border-radius:5px;padding:3px 9px;
 }
 .project-card{
   background:var(--surface);
@@ -1196,7 +1099,7 @@ footer{
     <p class="hero-desc reveal reveal-delay-2">
       I break software <em>on purpose</em> — so your users never have to.<br>
       1+ year delivering quality at national scale: government OCR platforms, 
-      AI accessibility tools, and enterprise systems. <em>Selenium · Playwright · JMeter · Postman · CI/CD.</em>
+      AI accessibility tools, and enterprise e-commerce. <em>Selenium · JMeter · Postman · CI/CD.</em>
     </p>
     <div class="hero-actions reveal reveal-delay-3">
       <a href="#projects" class="btn btn-fill">View Projects <span class="btn-arrow">→</span></a>
@@ -1223,7 +1126,8 @@ footer{
     <div class="photo-scene">
       <!-- ambient glow -->
       <div class="photo-glow"></div>
-      <!-- outer dashed orbit -->
+      <!-- outer dashed orbits -->
+      <div class="photo-orbit2"></div>
       <div class="photo-orbit"></div>
       <!-- spinning conic ring -->
       <div class="photo-ring"></div>
@@ -1299,38 +1203,38 @@ footer{
 <div class="skills-marquee-wrap">
   <div class="marquee-track" id="marqueeTrack">
     <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Selenium · Python</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Playwright</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>AI-Assisted Automation</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Apache JMeter</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Postman · REST API</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Jira · Confluence</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Manual · Functional</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Regression Testing</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>WCAG · Accessibility</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>CI/CD · GitHub</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Performance · Load</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Cross-Platform</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Python · Java · C#</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>MySQL · SQL</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Agile · Scrum</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>STLC · SDLC</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Apache JMeter</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Postman · REST API</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Jira · Confluence</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Manual Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Regression Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>WCAG · Accessibility</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>CI/CD · GitHub</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>MySQL · SQL</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Agile · Scrum</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>STLC · SDLC</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Python · Java · C#</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Performance Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Load · Stress Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Cross-Platform Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>VS Code · IntelliJ</div>
     <!-- duplicate for infinite loop -->
     <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Selenium · Python</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Playwright</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>AI-Assisted Automation</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Apache JMeter</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Postman · REST API</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Jira · Confluence</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Manual · Functional</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Regression Testing</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>WCAG · Accessibility</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>CI/CD · GitHub</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Performance · Load</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Cross-Platform</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Python · Java · C#</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>MySQL · SQL</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Agile · Scrum</div>
-    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>STLC · SDLC</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Apache JMeter</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Postman · REST API</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Jira · Confluence</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Manual Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Regression Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>WCAG · Accessibility</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>CI/CD · GitHub</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>MySQL · SQL</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Agile · Scrum</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>STLC · SDLC</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>Python · Java · C#</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#6c63ff"></div>Performance Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#00e5c0"></div>Load · Stress Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ff5e5e"></div>Cross-Platform Testing</div>
+    <div class="skill-pill"><div class="skill-pill-dot" style="background:#ffd166"></div>VS Code · IntelliJ</div>
   </div>
 </div>
 
@@ -1338,12 +1242,12 @@ footer{
 <section id="projects" class="section">
   <div class="section-eyebrow reveal">Featured Work</div>
   <h2 class="section-title reveal">Projects that<br>went live.</h2>
-  <p class="section-sub reveal">National-scale government platforms and enterprise systems — real users, real consequences if quality fails. That's the standard I hold every release to.</p>
+  <p class="section-sub reveal">Real government platforms. Real users. Real consequences if quality fails — that's the standard I hold myself to.</p>
   <div class="grid">
     <div class="project-card reveal">
       <div class="proj-header">
         <div class="proj-type">National · OCR</div>
-        <a href="https://ocr.bangla.gov.bd" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
+        <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
       </div>
       <div class="proj-body">
         <h3 class="proj-title">Bangla OCR System</h3>
@@ -1391,7 +1295,7 @@ footer{
     <div class="project-card reveal reveal-delay-2">
       <div class="proj-header">
         <div class="proj-type">E-Commerce · Scale</div>
-        <a href="https://bscicemarket.gov.bd" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
+        <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
       </div>
       <div class="proj-body">
         <h3 class="proj-title">BSCIC Online Market</h3>
@@ -1414,7 +1318,7 @@ footer{
     <div class="project-card reveal">
       <div class="proj-header">
         <div class="proj-type">AI · OCR</div>
-        <a href="https://kagoj.ai" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
+        <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
       </div>
       <div class="proj-body">
         <h3 class="proj-title">Kagoj.ai — AI OCR</h3>
@@ -1432,133 +1336,49 @@ footer{
         <div class="proj-gov">🏛 Govt</div>
       </div>
     </div>
-    <div class="project-card reveal">
-      <div class="proj-header">
-        <div class="proj-type">Enterprise · HRM</div>
-        <a href="https://hrm.apurbatech.io" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
-      </div>
-      <div class="proj-body">
-        <h3 class="proj-title">Apurba HRM</h3>
-        <p class="proj-desc">Manual and regression testing of HRM modules — leave, attendance, and payroll. Built Playwright scripts for API endpoint testing and tracked defects in Jira with severity classification.</p>
-        <div class="proj-tags">
-          <span class="proj-tag">Playwright</span>
-          <span class="proj-tag">API Testing</span>
-          <span class="proj-tag">Regression</span>
-          <span class="proj-tag">Jira</span>
-        </div>
-      </div>
-      <div class="proj-footer">
-        <div class="proj-metrics-row">
-          <div class="pmetric"><div class="pmetric-n">3</div><div class="pmetric-l">Core Modules</div></div>
-          <div class="pmetric"><div class="pmetric-n">API</div><div class="pmetric-l">Automated</div></div>
-        </div>
-      </div>
-    </div>
     <div class="project-card reveal reveal-delay-1">
       <div class="proj-header">
-        <div class="proj-type">Finance · OCR</div>
-        <a href="https://findoc.apurbatech.io" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
+        <div class="proj-type">Automation</div>
+        <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
       </div>
       <div class="proj-body">
-        <h3 class="proj-title">Apurba Fin Doc</h3>
-        <p class="proj-desc">Functional and regression testing of an OCR platform for bank and financial documents. Partnered with ML engineers on extraction accuracy, validated upload flows, and ran Postman API checks.</p>
+        <h3 class="proj-title">Selenium Regression Suite</h3>
+        <p class="proj-desc">Architected an automated regression suite from scratch. Reduced repetitive manual test execution by 30% and increased release confidence through consistent, repeatable coverage.</p>
         <div class="proj-tags">
-          <span class="proj-tag">OCR</span>
-          <span class="proj-tag">Postman</span>
-          <span class="proj-tag">API Testing</span>
-          <span class="proj-tag">Automation</span>
+          <span class="proj-tag">Selenium</span>
+          <span class="proj-tag">Python</span>
+          <span class="proj-tag">CI/CD</span>
+          <span class="proj-tag">GitHub Actions</span>
         </div>
       </div>
       <div class="proj-footer">
         <div class="proj-metrics-row">
-          <div class="pmetric"><div class="pmetric-n">ML</div><div class="pmetric-l">Collaboration</div></div>
+          <div class="pmetric"><div class="pmetric-n">30%</div><div class="pmetric-l">Manual ↓</div></div>
+          <div class="pmetric"><div class="pmetric-n">147</div><div class="pmetric-l">Test Cases</div></div>
         </div>
       </div>
     </div>
-    <div class="project-card reveal">
+    <div class="project-card reveal reveal-delay-2">
       <div class="proj-header">
-        <div class="proj-type">Govt · Compatibility</div>
-        <a href="https://fontengine.bangla.gov.bd" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
+        <div class="proj-type">API Testing</div>
+        <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="proj-ext" style="text-decoration:none">↗</a>
       </div>
       <div class="proj-body">
-        <h3 class="proj-title">Font Conversion Engine</h3>
-        <p class="proj-desc">Tested ASCII-to-Unicode Bangla font conversion across web and desktop. Verified version compatibility and consistent usability so legacy documents convert cleanly on every platform.</p>
+        <h3 class="proj-title">Spotify API Framework</h3>
+        <p class="proj-desc">Built a Python-based API validation framework for Spotify integration testing. Improved API test coverage by 40% and enabled faster regression cycles for API endpoints.</p>
         <div class="proj-tags">
-          <span class="proj-tag">Cross-Platform</span>
-          <span class="proj-tag">Compatibility</span>
-          <span class="proj-tag">Web</span>
-          <span class="proj-tag">Desktop</span>
+          <span class="proj-tag">Postman</span>
+          <span class="proj-tag">Python</span>
+          <span class="proj-tag">REST API</span>
+          <span class="proj-tag">requests</span>
         </div>
       </div>
       <div class="proj-footer">
         <div class="proj-metrics-row">
-          <div class="pmetric"><div class="pmetric-n">2</div><div class="pmetric-l">Surfaces</div></div>
+          <div class="pmetric"><div class="pmetric-n">40%</div><div class="pmetric-l">Coverage ↑</div></div>
         </div>
-        <div class="proj-gov">🏛 Govt</div>
       </div>
     </div>
-  </div>
-
-  <!-- PERSONAL PROJECTS -->
-  <div class="pp-head reveal">
-    <div class="section-eyebrow">Personal Projects</div>
-    <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="pp-all">View all on GitHub <span>↗</span></a>
-  </div>
-  <div class="pp-grid">
-    <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="pp-card reveal">
-      <div class="pp-top">
-        <div class="pp-title">Amazon UI Automation</div>
-        <span class="pp-git"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span>
-      </div>
-      <div class="pp-tags">
-        <span class="pp-tag">Selenium</span><span class="pp-tag">Python</span><span class="pp-tag">Page Object Model</span>
-      </div>
-    </a>
-    <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="pp-card reveal reveal-delay-1">
-      <div class="pp-top">
-        <div class="pp-title">Daraz UI Automation</div>
-        <span class="pp-git"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span>
-      </div>
-      <div class="pp-tags">
-        <span class="pp-tag">Selenium</span><span class="pp-tag">Python</span><span class="pp-tag">E-Commerce Flows</span>
-      </div>
-    </a>
-    <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="pp-card reveal reveal-delay-2">
-      <div class="pp-top">
-        <div class="pp-title">API Test Automation</div>
-        <span class="pp-git"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span>
-      </div>
-      <div class="pp-tags">
-        <span class="pp-tag">Postman</span><span class="pp-tag">Python</span><span class="pp-tag">REST API</span>
-      </div>
-    </a>
-    <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="pp-card reveal">
-      <div class="pp-top">
-        <div class="pp-title">Spotify API Integration</div>
-        <span class="pp-git"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span>
-      </div>
-      <div class="pp-tags">
-        <span class="pp-tag">Python</span><span class="pp-tag">REST API</span><span class="pp-tag">OAuth</span>
-      </div>
-    </a>
-    <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="pp-card reveal reveal-delay-1">
-      <div class="pp-top">
-        <div class="pp-title">JMeter Load Testing</div>
-        <span class="pp-git"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span>
-      </div>
-      <div class="pp-tags">
-        <span class="pp-tag">Apache JMeter</span><span class="pp-tag">Restful-Booker</span><span class="pp-tag">Performance</span>
-      </div>
-    </a>
-    <a href="https://github.com/AbrarRagib" target="_blank" rel="noopener" class="pp-card reveal reveal-delay-2">
-      <div class="pp-top">
-        <div class="pp-title">Security Testing</div>
-        <span class="pp-git"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span>
-      </div>
-      <div class="pp-tags">
-        <span class="pp-tag">Web Security</span><span class="pp-tag">OWASP</span>
-      </div>
-    </a>
   </div>
 </section>
 
@@ -1607,13 +1427,13 @@ footer{
           <div class="exp-date">June 2025 – Present · Dhaka, Bangladesh</div>
         </div>
         <div class="exp-bullets">
-          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Own end-to-end QA for OCR, financial-document, and accessibility government platforms — functional, regression, and cross-platform testing across Windows, Linux, Web, and Android in Agile sprints.</div>
-          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Built Selenium (Python) and Playwright automation, accelerated with AI assistants (Claude Cowork), cutting manual regression by <strong style="color:var(--a2)">35%</strong> and freeing the team for exploratory coverage.</div>
+          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Owned end-to-end QA for OCR-based and accessibility-focused government platforms, covering functional, regression, and cross-platform testing in Agile sprint cycles.</div>
+          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Designed and implemented Selenium (Python) automation scripts that reduced manual regression workload by <strong style="color:var(--a2)">35%</strong>, freeing the team for exploratory and edge-case coverage.</div>
           <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Validated government accessibility systems against WCAG compliance standards, improving product reliability and audit readiness.</div>
-          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Authored structured test cases, bug reports, and release notes that sped up QA–Dev handoff and reduced re-open rates.</div>
+          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Produced structured test cases, bug reports, and release notes that improved QA–Dev handoff speed and reduced re-open rates.</div>
         </div>
         <div class="exp-skills">
-          <span class="exp-skill">Selenium</span><span class="exp-skill">Playwright</span><span class="exp-skill">Python</span><span class="exp-skill">Postman</span><span class="exp-skill">AI-Assisted</span><span class="exp-skill">Jira</span><span class="exp-skill">WCAG</span><span class="exp-skill">Agile</span>
+          <span class="exp-skill">Selenium</span><span class="exp-skill">Python</span><span class="exp-skill">Jira</span><span class="exp-skill">WCAG</span><span class="exp-skill">Agile</span><span class="exp-skill">Regression</span>
         </div>
       </div>
       <div class="exp-panel" id="exp-dream71">
@@ -1652,7 +1472,7 @@ footer{
           <div class="exp-date">June 2021 – January 2022 · Dhaka, Bangladesh</div>
         </div>
         <div class="exp-bullets">
-          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Led C++ and computer graphics labs for 100+ undergraduate students; translated complex technical concepts into clear, hands-on exercises.</div>
+          <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Facilitated lab sessions in C++ programming and computer graphics for 50+ undergraduate students; translated complex technical concepts into clear, hands-on exercises.</div>
           <div class="exp-bullet"><span class="exp-bullet-icon">›</span>Skills directly applied in QA documentation and team knowledge sharing throughout career.</div>
         </div>
         <div class="exp-skills">
@@ -1743,8 +1563,8 @@ footer{
         <div class="skill-bar-track"><div class="skill-bar-fill" style="width:95%;background:linear-gradient(90deg,var(--a1),var(--a2))"></div></div>
       </div>
       <div class="skill-bar-item">
-        <div class="skill-bar-head"><span class="skill-bar-name">Selenium &amp; Playwright Automation</span><span class="skill-bar-pct">86%</span></div>
-        <div class="skill-bar-track"><div class="skill-bar-fill" style="width:86%;background:linear-gradient(90deg,var(--a2),var(--a1))"></div></div>
+        <div class="skill-bar-head"><span class="skill-bar-name">Selenium Automation</span><span class="skill-bar-pct">85%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" style="width:85%;background:linear-gradient(90deg,var(--a2),var(--a1))"></div></div>
       </div>
       <div class="skill-bar-item">
         <div class="skill-bar-head"><span class="skill-bar-name">Apache JMeter</span><span class="skill-bar-pct">82%</span></div>
@@ -1765,14 +1585,11 @@ footer{
       <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--border)">
         <div class="about-chart-label" style="margin-bottom:12px">Learning Next</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
-          <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">🤖 Machine Learning</span>
           <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">🐳 Docker</span>
           <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">☸ Kubernetes</span>
           <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">🔀 Kafka</span>
           <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">🐇 RabbitMQ</span>
           <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">🔴 Redis</span>
-          <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">🧩 Microservices</span>
-          <span class="proj-tag" style="border-color:rgba(255,209,102,0.3);color:var(--a4)">🔌 WebSocket</span>
         </div>
       </div>
     </div>
@@ -1781,7 +1598,7 @@ footer{
       <h2 class="section-title" style="font-size:clamp(28px,4vw,44px)">Quality is not an act.<br>It's a habit.</h2>
       <p>I'm a <em>Software Quality Assurance Engineer</em> based in Dhaka, Bangladesh with 1+ year of professional experience delivering quality across government-scale and enterprise software products.</p>
       <p>I've tested platforms used by millions — from a national OCR system for the Bangladesh government to a screen reader for visually impaired users. Every bug I catch before production is a problem a real person never faces.</p>
-      <p>I maintain <em>98% defect reproduction accuracy</em> across all release cycles, and I've cut manual regression effort by <em>35%</em> through Selenium and Playwright automation — accelerated with AI-assisted tooling. I care about shipping software that actually works.</p>
+      <p>I maintain <em>98% defect reproduction accuracy</em> across all release cycles, and I've reduced manual regression effort by <em>35%</em> through Selenium automation. I care about shipping software that actually works.</p>
       <div class="cert-grid">
         <div class="cert-badge"><span>🎓</span> B.Sc CSE · AIUB · 2022</div>
         <div class="cert-badge"><span>📜</span> SQA Certification · Dream71</div>
@@ -1840,7 +1657,7 @@ footer{
 </section>
 
 <footer>
-  <div class="footer-logo">abrar.ragib · SQA Engineer · 2026</div>
+  <div class="footer-logo">abrar.ragib · SQA Engineer · 2025</div>
   <div class="footer-links">
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
